@@ -4,7 +4,19 @@ using System.Text;
 
 namespace DAL
 {
-    class DalService
+
+    interface IDalService
     {
+
+
+
+    }
+
+    class DalService : IDalService
+    {
+
+
+
+
     }
 }
