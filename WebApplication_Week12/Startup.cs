@@ -56,6 +56,12 @@ namespace WebApplication_Week12
                2 more changes
                s
 
+
+                ng g m employee --routing
+                ng g c employee\list
+                ng g c employee\add  
+
+
              */
 
             //DAL services
