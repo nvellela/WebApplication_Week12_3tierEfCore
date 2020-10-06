@@ -57,11 +57,16 @@ namespace WebApplication_Week12
                s
 
 
+                cmd from the folder of app cliet 
                 ng g m employee --routing
                 ng g c employee\list
                 ng g c employee\add  
+                
+                add to menu
+                register module n module routing to app 
+                https://www.itsolutionstuff.com/post/angular-9-crud-application-exampleexample.html
 
-
+                check routing works ?
              */
 
             //DAL services
