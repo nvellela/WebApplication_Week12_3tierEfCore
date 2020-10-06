@@ -1,3 +1,4 @@
+using BLL;
 using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -56,6 +57,14 @@ namespace WebApplication_Week12
                s
 
              */
+
+            //DAL services
+            services.AddScoped<IDalService, DALService>();
+
+
+            //BLL services
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            //services.AddScoped<ICategoryService, CategoryService>();
 
 
 
