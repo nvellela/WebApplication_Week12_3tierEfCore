@@ -49,6 +49,8 @@ namespace WebApplication_Week12
                 dotnet ef migrations remove
                 dotnet ef database drop
 
+                 pmc=> update-database
+
                add nswag 
                https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio
               
